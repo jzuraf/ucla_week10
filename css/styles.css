@@ -146,7 +146,8 @@ body {
     body .row.plain {
       background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/cliffs.png");
       max-height: 344px;
-      width: 100%; }
+      margin-right: -50;
+      margin-left: -50; }
     body .row.footer {
       background-color: white;
       height: 8em;
