@@ -2,6 +2,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   //background-color: #0cb3f8;
 
+  .text-center {
+    //max-width: 400px;
+  }
+
   .banner {
     height: 60px;
   }
@@ -93,26 +97,26 @@ body {
     }
 
     &.small {
-      font-weight: 300px;
+      font-weight: 300;
       color: black;
       font-size: 12px;
       padding-bottom: 2em;
     }
 
     &.big {
-      font-weight: 300px;
+      font-weight: 300;
       color: black;
       font-size: 14px;
     }
 
     &.white {
-      font-weight: 300px;
+      font-weight: 300;
       color: white;
       font-size: 14px;
     }
 
     &.little {
-      font-weight: 300px;
+      font-weight: 300;
       color: white;
       font-size: 12px;
       padding-bottom: 2em;
@@ -128,23 +132,39 @@ body {
     font-size: 48px;
   }
 
+  .details {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    &.alt {
+      margin-right: 2em;
+      margin-left: 2em;
+    }
+  }
 
+  #banner {
+    background-color: white;
+    margin-top: -40px;
+  }
+  #new {
+    padding-left: 4em;
+  }
   #iphone {
-    max-width: 180px;
+    //max-width: 180px;
+    padding-right: 12em;
+    float: right;
   }
   #iphone2 {
-    padding-bottom: 4em;
+    padding-bottom: 2em;
     //max-width: 200px;
-  }
-  #check {
-    padding-right: 0.75em;
-  }
-  #apple {
-    padding-right: 2em;
   }
   #learn {
     font-size: 10px;
     border: none;
+  }
+  #apple {
+    padding-right: 2em;
   }
   #black {
     padding-left: 4em;
@@ -154,15 +174,19 @@ body {
   #company {
     padding-right: 2em;
   }
-  #social {
+
+
+  .check {
+    padding-right: 0.75em;
+  }
+  .social {
+    margin-right: 2em;
+  }
+  .soc {
     padding-right: 1em;
     text-align: right;
     float: right;
     //margin-right: 2em;
-  }
-
-  .social {
-    margin-right: 2em;
   }
 
   .btn-primary {
@@ -178,8 +202,8 @@ body {
 
     &.new {
       border: none;
-      margin: none;
-      padding: none;
+      margin: 0;
+      padding: 0;
       width: 60px;
       padding: 0.4em .6em;
       font-weight: 300;
@@ -187,6 +211,7 @@ body {
       background-color: #1b8bf9;
       color: white;
       margin-right: 2em;
+      box-shadow: 2px 2px 10px #1b8bf9;
     }
 
     &.download {
@@ -217,18 +242,21 @@ body {
 
     &.hero-image {
       background: #0cb3f8;
+      padding-left: 4em;
     }
 
     &.dark {
       background: #222222;
     }
 
+
     &.plain {
       background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../images/cliffs.png");
-      max-height: 344px;
+      background-size:contain;
+      max-height: 400px;
       //width: 100%;
-      margin-right: -50;
-      margin-left: -50;
+      //margin-right: -50;
+      //margin-left: -50;
     }
 
     &.footer {
@@ -245,6 +273,8 @@ body {
       padding-top: 20px;
       padding-bottom: 10px;
       margin-bottom: 6em;
+      margin-left: 4em;
+      margin-right: 4em;
       &.alt {
         background: #1b8bf9;
       }
