@@ -6,7 +6,9 @@ body {
   margin: 0 auto;
 }
 
+// NAVIGATION //
 
+// ICONS //
 .selfie {
   width: 75px;
   height: auto;
@@ -14,7 +16,6 @@ body {
   border-radius: 50%;
   border: 1px solid white;
 }
-
 .icon {
   transition: transform .7s ease-in-out;
 }
@@ -22,11 +23,23 @@ body {
   transform: rotate(360deg);
 }
 
+// LINKS //
+a {
+  color: #606060;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: italic;
+}
+a:hover {
+  color: #FD5003;
+  font-style: normal;
+}
+
+// HOME PAGE //
 .splash {
   margin-top: 6em;
   margin-bottom: 8em;
 }
-
 .bio {
   text-align: right;
   //padding: 0:
@@ -44,7 +57,6 @@ body {
     padding-left: 1em;
   }
 }
-
 .menu {
   text-align: left;
   padding-top: 50px;
@@ -53,14 +65,46 @@ body {
   border-left: 2px solid #606060;
 }
 
+// WORK PAGE //
+.title {
+  position: relative;
+  //padding-left: .8em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 35px;
+  width: 50%;
+  margin: 0 25%;
+  border-top: 2px solid #606060;
+  padding-top: 0.5em;
+}
+.gallery {
+  text-align: center;
+  margin: 2em 5%;
+  padding: none;
+}
+.project {
+  height: auto;
+  width: 450px;
+  padding: 10px;
+}
+.left {
+  float: right;
+  text-align: right;
+}
+.right {
+  float: left;
+  text-align: left;
+}
+
+// FOOTER // 768px
 .social {
   height: auto;
   width: 20px;
   margin: 10px;
 }
 
-
-@media screen and (max-width: 768px) {
+// RESPONSIVE //
+@media screen and (max-width: 1200px) {
   .splash {
     margin: none;
     margin-top: 1em;
@@ -73,31 +117,17 @@ body {
     //border-right: 2px solid #606060;
     width: 80%;
   }
+  .project {
+    height: auto;
+    width: 350px;
+  }
+  .left {
+    text-align: center;
+  }
+  .right {
+    text-align: center;
+  }
 }
-
-
-.title {
-  position: relative;
-  //padding-left: .8em;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 35px;
-  width: 50%;
-  margin: 0 25%;
-  border-top: 2px solid #606060;
-  padding-top: 0.5em;
-}
-
-
-.gallery {
-  text-align: center;
-  margin: none;
-  padding: none;
-}
-
-
-
-
 
 // FONT STYLES //
 h1 {
@@ -113,16 +143,4 @@ h3 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-}
-
-a {
-  color: #606060;
-  font-weight: 600;
-  font-size: 40px;
-  font-style: italic;
-}
-
-a:hover {
-  color: #FD5003;
-  font-style: normal;
 }

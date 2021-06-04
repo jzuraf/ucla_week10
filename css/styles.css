@@ -18,6 +18,16 @@ body {
 .icon:hover {
   transform: rotate(360deg); }
 
+a {
+  color: #606060;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: italic; }
+
+a:hover {
+  color: #FD5003;
+  font-style: normal; }
+
 .splash {
   margin-top: 6em;
   margin-bottom: 8em; }
@@ -40,21 +50,6 @@ body {
   padding-left: 30px;
   border-left: 2px solid #606060; }
 
-.social {
-  height: auto;
-  width: 20px;
-  margin: 10px; }
-
-@media screen and (max-width: 768px) {
-  .splash {
-    margin: none;
-    margin-top: 1em; }
-  .menu {
-    padding: none;
-    margin: none;
-    margin-top: 0.5em;
-    width: 80%; } }
-
 .title {
   position: relative;
   font-family: 'Playfair Display', serif;
@@ -67,8 +62,43 @@ body {
 
 .gallery {
   text-align: center;
-  margin: none;
+  margin: 2em 5%;
   padding: none; }
+
+.project {
+  height: auto;
+  width: 450px;
+  padding: 10px; }
+
+.left {
+  float: right;
+  text-align: right; }
+
+.right {
+  float: left;
+  text-align: left; }
+
+.social {
+  height: auto;
+  width: 20px;
+  margin: 10px; }
+
+@media screen and (max-width: 1200px) {
+  .splash {
+    margin: none;
+    margin-top: 1em; }
+  .menu {
+    padding: none;
+    margin: none;
+    margin-top: 0.5em;
+    width: 80%; }
+  .project {
+    height: auto;
+    width: 350px; }
+  .left {
+    text-align: center; }
+  .right {
+    text-align: center; } }
 
 h1 {
   font-weight: 400;
@@ -81,13 +111,3 @@ h3 {
 
 p {
   font-family: 'Montserrat', sans-serif; }
-
-a {
-  color: #606060;
-  font-weight: 600;
-  font-size: 40px;
-  font-style: italic; }
-
-a:hover {
-  color: #FD5003;
-  font-style: normal; }
