@@ -1,10 +1,124 @@
 body {
   font-family: 'Playfair Display', serif;
   text-align: center;
-  //background-color: #0cb3f8;
+  background-color: #F4F4F4;
+  color: #606060;
+  margin: 0 auto;
 }
 
+.selfie {
+  width: 75px;
+  height: auto;
+  margin: 1em;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.icon {
+  transition: transform .7s ease-in-out;
+}
+.icon:hover {
+  transform: rotate(360deg);
+}
+
+.splash {
+  margin-top: 6em;
+  margin-bottom: 8em;
+}
+
+.bio {
+  text-align: right;
+  //padding: 0:
+  padding-right: 30px;
+  padding-left: 15px;
+
+  .name {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .subtitle {
+  }
+  .info {
+    padding-bottom: 20px;
+    padding-left: 1em;
+  }
+}
+
+.menu {
+  text-align: left;
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-left: 30px;
+  border-left: 2px solid #606060;
+}
+
+.social {
+  height: auto;
+  width: 20px;
+  margin: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .splash {
+    margin: none;
+    margin-top: 1em;
+  }
+  .menu {
+    //text-align: right;
+    padding: none;
+    margin: none;
+    margin-top: 0.5em;
+    //border-right: 2px solid #606060;
+    width: 80%;
+  }
+}
+
+
+.title {
+  position: relative;
+  //padding-left: .8em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 35px;
+  width: 50%;
+  margin: 0 25%;
+  border-top: 2px solid #606060;
+  padding-top: 0.5em;
+}
+
+
+.gallery {
+  text-align: center;
+  margin:none;
+  padding:none;
+}
+
+
+// FONT STYLES //
 h1 {
   font-weight: 400;
+  font-size: 60px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #606060;
+  font-weight: 600;
   font-size: 40px;
+  font-style: italic;
+}
+
+a:hover {
+  color: #FD5003;
+  font-style: normal;
 }
