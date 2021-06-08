@@ -6,10 +6,11 @@ body {
   margin: 0 auto;
 
   .background-img {
-    background:url('images/REPLACE.png');
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+    background-image: url('http://jzuraf.xyz/ucla_week10/images/back.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
   }
 }
 
