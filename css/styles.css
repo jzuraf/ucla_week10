@@ -81,6 +81,14 @@ a:hover {
   width: 450px;
   padding: 10px; }
 
+.project:hover {
+  opacity: 80%; }
+
+.project:hover .info {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px); }
+
 .left {
   float: right;
   text-align: right; }
