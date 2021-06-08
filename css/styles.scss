@@ -4,6 +4,13 @@ body {
   background-color: #F4F4F4;
   color: #606060;
   margin: 0 auto;
+
+  .background-img {
+    background:url('images/REPLACE.png');
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
 }
 
 // NAVIGATION //
