@@ -28,6 +28,12 @@ a:hover {
   color: #FD5003;
   font-style: normal; }
 
+.title {
+  color: #606060;
+  font-weight: 600 !important;
+  font-size: 40px !important;
+  font-style: italic; }
+
 .splash {
   margin-top: 6em;
   margin-bottom: 8em; }
@@ -78,10 +84,51 @@ a:hover {
   float: left;
   text-align: left; }
 
+.resume {
+  text-align: center;
+  background-color: white;
+  width: 84%;
+  margin: 3em 8%;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 2em; }
+
+#name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  letter-spacing: 0.08em;
+  padding: 1em 0 0 0; }
+
+#jobtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0 0 2em 0; }
+
+.col-sm-8 {
+  text-align: left; }
+
+.col-sm-4 {
+  text-align: left; }
+
+.header {
+  font-weight: 600;
+  font-size: 12px;
+  border-bottom: solid 1px #606060; }
+
+.text {
+  font-size: 12px; }
+
+#smiley {
+  width: 16px;
+  height: auto;
+  margin-left: 10px; }
+
 .social {
   height: auto;
   width: 20px;
-  margin: 10px; }
+  margin: 10px 10px 25px 10px; }
 
 @media screen and (max-width: 1200px) {
   .splash {
