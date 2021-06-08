@@ -5,13 +5,11 @@ body {
   color: #606060;
   margin: 0 auto;
 
-  .background-img {
-    background-image: url('http://jzuraf.xyz/ucla_week10/images/back.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center bottom;
-    background-size: cover;
-  }
+  background-image: url('/images/back3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 // NAVIGATION //

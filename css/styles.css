@@ -3,12 +3,12 @@ body {
   text-align: center;
   background-color: #F4F4F4;
   color: #606060;
-  margin: 0 auto; }
-  body .background-img {
-    background: url("images/REPLACE.png");
-    position: absolute;
-    right: 0px;
-    bottom: 0px; }
+  margin: 0 auto;
+  background-image: url("/images/back3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: cover; }
 
 .selfie {
   width: 75px;
